@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Poppins:wght@400;600&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+
+/* font-family: 'Baloo Bhaina 2', sans-serif; */
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'PT Sans Narrow', sans-serif; */
+
+
+/* prism */
+pre[class*=language-] {
+    padding: 1em;
+    margin: 0.5em 0;
+    overflow: auto;
+    border-radius: 15px;
+    max-height: 385px;
+}
+div.code-toolbar>.toolbar>.toolbar-item>a, div.code-toolbar>.toolbar>.toolbar-item>button, div.code-toolbar>.toolbar>.toolbar-item>span {
+    
+    margin-right: 20px;
+    
+}
+/* prism  */
+
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgba(215, 215, 215, 0.452);
+}
+nav{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+nav h1{
+    font-size: 2.5rem;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Baloo Bhaina 2', sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+
+}
+.container{
+    width: 70%;
+    min-height: 100vh;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 5px 3px gray;
+    list-style-position: inside;
+    padding: 20px 35px;
+}
+ol{
+list-style-type: none;
+}
+h2{
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    padding: 6px 20px;
+    text-shadow: 1px 2px 2px rgb(159, 158, 158) ;
+}
+p{
+   font-size: 18px;
+   font-family: 'PT Sans Narrow', sans-serif; 
+   letter-spacing: 0.5px;
+   padding: 0 0 7px 30px;
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+    padding: 7px 20px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 5px 5px ;
+    text-align: center;
+    font-family: 'Baloo Bhaina 2', sans-serif;
+}
+
+
+
+/* scrollbar  */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px;
+    
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }

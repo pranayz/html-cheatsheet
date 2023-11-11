@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML CHEATSHEET 😎</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="prism.css" />
+    <script src="prism.js"></script>
+  </head>
+  <body>
+    <nav>
+      <h1>Ultimate HTML Cheatsheet</h1>
+    </nav>
+    <main>
+      <div class="container">
+        <ol>
+            <!-- HTML Boilerplate -->
+          <li>
+            <h2> HTML Boilerplate</h2>
+            <pre class="language-html">
+<code>&lt!DOCTYPE html&gt
+    &lthtml lang="en"&gt
+    &lthead&gt
+      &ltmeta charset="UTF-8"&gt
+      &ltmeta name="viewport" content="width=device-width, initial-scale=1.0"&gt
+      &lttitle&gtDocument&lt/title&gt
+    &lt/head&gt
+    &ltbody&gt
+    &lth1&gt
+    Hello World!
+    &lth1&gt
+    &lt/body&gt
+    &lt/html&gt</code>
+ </pre>
+          </li>
+          
+          <!-- HTML HEADINGS  -->
+          <li>
+            <h2>Headings</h2>
+            <p>There are six types of heading in HTML</p>
+            <h3>&lth1&gt tag</h3>
+            <pre class="language-html"><code>&lth1&gtheading 1&lt/h1&gt</code></pre>
+            <h3>&lth2&gt tag</h3>
+            <pre class="language-html"><code>&lth2&gtheading 2&lt/h2&gt</code></pre>
+            <h3>&lth3&gt tag</h3>
+            <pre class="language-html"><code>&lth3&gtheading 3&lt/h3&gt</code></pre>
+            <h3>&lth4&gt tag</h3>
+            <pre class="language-html"><code>&lth4&gtheading 4&lt/h4&gt</code></pre>
+            <h3>&lth5&gt tag</h3>
+            <pre class="language-html"><code>&lth5&gtheading 5&lt/h5&gt</code></pre>
+            <h3>&lth6&gt tag</h3>
+            <pre class="language-html"><code>&lth6&gtheading 6&lt/h6&gt</code></pre>
+          </li>
+
+          <!-- HTML CONTAINER TAGS -->
+          <li>
+            <h2>Container</h2>
+            <p>Container tags are the tags that contain some data such as text, image, etc. There are several container tags in HTML.</p>
+            <h3>div tag</h3>
+          <p>The div tag or division tag is used to make blocks or divisions in the document.</p>
+          <pre class="language-html"><code>&ltdiv&gt This is div block&lt/div&gt</code></pre>
+          <h3>span tag</h3>
+          <p>The span is a container for inline content</p>
+          <pre class="language-html"><code>&ltspan&gt This is span block&lt/span&gt</code></pre>
+          <h3>p tag</h3>
+          <p> The p tag used to create a paragraph in html</p>
+          <pre class="language-html"><code>&ltp&gt This is paragraph&lt/p&gt</code></pre>
+          <h3>pre tag</h3>
+          <p> The pre tag represents pre-formatted text</p>
+          <pre class="language-html"><code>&ltpre&gt Hello world !&lt/pre&gt</code></pre>
+          <h3>code tag</h3>
+          <p>The code tag use to represents the source code in html</p>
+          <pre class="language-html"><code>&ltcode&gt write any code here &lt/code&gt</code></pre>
+        </li>
+
+        <!-- HTML Text-Formatting tags  -->
+        <li>
+            <h2>Text-Formatting</h2>
+            <p>Text formatting tags are used to format text or data in HTML documents. with this tags you can create a         <i>italic</i>, <b>bold</b> and <strong>strong</strong> to make document more attractive</p>
+            <h3>&ltb&gt tag</h3>
+            <pre class="language-html"><code>&ltb&gt Important Text &lt/b&gt</code></pre>
+            <h3>&ltstrong&gt tag</h3>
+            <pre class="language-html"><code>&ltstrong&gt Bold Text &lt/strong&gt</code></pre>
+            <h3>&lti&gt tag</h3>
+            <pre class="language-html"><code>&lti&gt italic Text &lt/i&gt</code></pre>
+            <h3>&ltem&gt tag</h3>
+            <pre class="language-html"><code>&ltem&gt Emphasixed Text &lt/em&gt</code></pre>
+            <h3>&ltsub&gt tag</h3>
+            <pre class="language-html"><code>&ltsub&gt Subscript Text &lt/sub&gt</code></pre><h3>&ltsup&gt tag</h3>
+            <pre class="language-html"><code>&ltsup&gt Superscript Text &lt/sup&gt</code></pre>
+        </li>
+
+        <!-- LIST TAGS  -->
+        <li>
+            <h2>Lists</h2>
+            <p>HTML lists allow web developers to group a set of related items in lists.</p>
+            <h3>&ltol&gt tag</h3>
+            <p>The ordered list starts with &ltol&gt tag and each list item starts with an &ltli&gt tag</p>
+            <pre class="language-html"><code>&ltol&gt 
+     &ltli&gt Data 1 &lt/li&gt
+     &ltli&gt Data 2 &lt/li&gt
+&lt/ol&gt</code></pre>
+            <h3>&ltul&gt tag</h3>
+            <pre class="language-html"><code>&ltul&gt 
+     &ltli&gt Data 1 &lt/li&gt
+     &ltli&gt Data 2 &lt/li&gt
+&lt/ul&gt</code></pre>
+        </li>
+
+        <!-- MEDIA TAGS  -->
+        <li>
+            <h2>Media </h2>
+            <p>Media is anything that is present in digital form such as image, video, audio, etc.</p>
+            <h3>&ltaudio&gt tag</h3>
+            <p>Audio tag is used to add audio in webpage.</p>
+            <pre class="language-html"><code>&ltaudio src="demo.mp3" controls&gt Browser not supported &lt/audio&gt</code></pre>
+            <h3>&ltvideo&gt tag</h3>
+            <p>It is used to add video in webpage</p>
+            <pre class="language-html"><code>&ltvideo src="video.mp4" controls&gtnot supported&lt/video&gt</code></pre>
+            <h3>&ltimg&gt tag</h3>
+            <p>It is used to add image in webpage</p>
+            <pre class="language-html"><code>&ltimg src="logo.png" alt="image"&gt</code></pre>
+        </li>
+
+        <!-- Table tags  -->
+        <li>
+          <h2>Table</h2>
+          <p>A table is a collection of rows and columns. It is used to represent data in tabular form.</p>
+          <h3>Table Structure</h3>
+          <pre class="language-html"><code>&lttable&gt
+ &ltcaption&gtDemo Table&lt/caption&gt
+   &ltthead&gt
+     &lttr&gt
+     &ltth&gtColumn1&lt/th&gt
+     &ltth colspan="2"&gtColumn2&lt/th&gt
+  &lt/tr&gt
+   &lt/thead&gt
+  &lttbody&gt
+  &lttr&gt
+    &lttd&gtData1&lt/td&gt
+    &lttd&gtData2&lt/td&gt
+    &lttd&gtData2&lt/td&gt
+  &lt/tr&gt
+  &lttr&gt
+    &lttd&gtData1&lt/td&gt
+    &lttd&gtData2&lt/td&gt
+    &lttd&gtData2&lt/td&gt
+    &lt/tr&gt
+  &lt/tbody&gt
+  &lttfoot&gt
+    &lttr&gt
+        &lttd&gt&amp;nbsp;&lt/td&gt
+        &lttd&gtData&lt/td&gt
+        &lttd&gtData&lt/td&gt
+    &lt/tr&gt
+ &lt/tfoot&gt
+&lt/table&gt</code></pre>
+        </li>
+
+        <!-- LINK TAGS  -->
+        <li>
+          <h2>Links</h2>
+          <p>Links are clickable text that can redirect you to some other page.</p>
+          <h3>&lta&gt tag</h3>
+          <p>&lta&gt or anchor tag defines a hyperlink. When clicked, it takes you to some other page</p>
+          <pre class="language-html"><code>&lta href="#"&gtSite Name&lt/a&gt</code></pre>
+        </li>
+
+        <!-- FORM TAG  -->
+        <li>
+          <h2>Form</h2>
+          <p>The form is used to collect the user's input, generally, the user's data is sent to the server for further processing.</p>
+          <pre class="language-html"><code>&ltform action="/action.php" method="post"&gt 
+            &lttextarea cols="20" name="comments" rows="5"&gtComment&lt/textarea&gt&ltbr /&gt
+            &ltlabel&gt&ltinput name="terms" type="checkbox" value="tandc" /&gtAccept terms&lt/label&gt &ltbr /&gt
+            &ltinput type="submit" value="Submit" /&gt
+        &lt/form&gt</code></pre>
+        <h2>Form Elements</h2>
+        </li>
+        </ol>
+      </div>
+    </main>
+
+    <!-- footer  -->
+    <footer>
+        <div>&copy; Pranay Navghare</div>
+    </footer>
+  </body>
+</html>
